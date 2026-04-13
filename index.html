@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guincho 24h em São Paulo | Martini Guinchos - Resgate e Socorro</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Martini Guinchos 24h em São Paulo. Socorro mecânico, guincho leve e pesado, troca de bateria e reboque imediato. Atendimento rápido na Vila Andrade e Morumbi.">
+    <meta name="keywords" content="guincho 24h, guincho sao paulo, guincho vila andrade, guincho campo limpo, socorro mecanico 24h, reboque plataforma sp">
+    <link rel="canonical" href="https://guinchosmartini.com.br/">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Guincho 24h em São Paulo | Martini Guinchos">
+    <meta property="og:description" content="Atendimento especializado em guincho e socorro 24h em toda a Grande São Paulo.">
+    <meta property="og:image" content="https://guinchosmartini.com.br/img/hero.png">
+    <meta property="og:url" content="https://guinchosmartini.com.br/">
+    
+    <!-- Google Fonts -->
+    <!-- Preloads -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap" as="style">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+    
+    <!-- External Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <div class="pulse-indicator"></div>
+                <span class="logo-text">Martini Guinchos</span>
+            </a>
+
+            <button class="menu-toggle md-hidden" id="menuToggle" aria-label="Menu">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+            
+            <nav class="md-flex hidden">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li class="dropdown">
+                        <a href="#" style="display: flex; align-items: center; gap: 5px;">
+                            Áreas 
+                            <span class="material-symbols-outlined" style="font-size: 16px;">expand_more</span>
+                        </a>
+                        <div class="dropdown-content">
+                            <a href="guincho-na-vila-andrade.html">Vila Andrade</a>
+                            <a href="guincho-no-campo-limpo.html">Campo Limpo</a>
+                            <a href="guincho-no-morumbi.html">Morumbi</a>
+                            <a href="guincho-no-panamby.html">Panamby</a>
+                            <a href="guincho-no-jardim-sao-luis.html">Jardim São Luís</a>
+                            <a href="guincho-no-santo-amaro.html">Santo Amaro</a>
+                            <a href="guincho-no-capao-redondo.html">Capão Redondo</a>
+                            <a href="guincho-no-jardim-sul.html">Jardim Sul</a>
+                            <a href="guincho-na-vila-das-belezas.html">Vila das Belezas</a>
+                            <a href="guincho-em-taboao-da-serra.html">Taboão da Serra</a>
+                        </div>
+                    </li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="status-badge">
+                <span class="material-symbols-outlined" style="font-size: 14px;">bolt</span>
+                24H ONLINE
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="img/hero.png" alt="Guincho Martini em São Paulo" class="hero-img" fetchpriority="high">
+            <div class="hero-gradient"></div>
+            <div class="hero-content">
+                <div class="hero-tag">
+                    <span class="material-symbols-outlined" style="font-size: 16px;">warning</span>
+                    Atendimento de Emergência Ativo
+                </div>
+                <h1>Guincho 24h em São Paulo:<br>Sua Segurança em<br><span style="color: var(--primary);">Primeiro Lugar.</span></h1>
+                <p>Assistência tática e guincho profissional para qualquer emergência. Atendimento ultra-rápido na zona sul e toda região metropolitana de SP.</p>
+                <div class="hero-btns" style="display: flex; gap: 20px; flex-wrap: wrap;">
+                    <a href="https://wa.me/5511971717505" class="btn btn-primary">
+                        <span class="material-symbols-outlined">call</span>
+                        Solicitar Resgate
+                    </a>
+                    <a href="#servicos" class="btn btn-outline">Ver Serviços</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos" class="section-container">
+            <div class="section-header">
+                <span class="section-tag">Nossas Operações</span>
+                <h2 class="section-title">Serviços Especializados</h2>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <span class="material-symbols-outlined service-icon">directions_car</span>
+                    <h3>Veículos Leves</h3>
+                    <p>Resgate e transporte de carros de passeio e utilitários com total cuidado e segurança.</p>
+                </div>
+                <div class="service-card" style="background: var(--primary); color: white;">
+                    <span class="material-symbols-outlined service-icon" style="color: white;">electric_bolt</span>
+                    <h3>Carga de Bateria</h3>
+                    <p style="color: rgba(255,255,255,0.8);">Atendimento rápido para panes elétricas e recarga de bateria no local 24 horas por dia.</p>
+                </div>
+                <div class="service-card">
+                    <span class="material-symbols-outlined service-icon">motorcycle</span>
+                    <h3>Motocicletas</h3>
+                    <p>Suporte específico com cintas e travas para transporte seguro de motos de todas as cilindradas.</p>
+                </div>
+                <div class="service-card">
+                    <span class="material-symbols-outlined service-icon">airport_shuttle</span>
+                    <h3>Vans e Utilitários</h3>
+                    <p>Guinchos reforçados para veículos de maior porte e carga pesada com logística eficiente.</p>
+                </div>
+                <div class="service-card">
+                    <span class="material-symbols-outlined service-icon">car_repair</span>
+                    <h3>Remoção Especial</h3>
+                    <p>Serviços de remoção em garagens subterrâneas e locais de difícil acesso com equipamentos modernos.</p>
+                </div>
+                <div class="service-card">
+                    <span class="material-symbols-outlined service-icon">local_shipping</span>
+                    <h3>Viagens e Longa Distância</h3>
+                    <p>Transportamos seu veículo para outras cidades e estados com agendamento e segurança garantida.</p>
+                </div>
+            </div>
+        </section>
+
+        <section style="background: white;">
+            <div class="section-container" style="display: flex; align-items: center; gap: 60px; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 300px;">
+                    <span class="section-tag">Sobre Nós</span>
+                    <h2 class="section-title" style="margin-bottom: 24px;">Profissionalismo e Agilidade</h2>
+                    <p style="color: var(--text-muted); margin-bottom: 20px;">Com anos de experiência no mercado de guinchos em São Paulo, a Martini Guinchos se destaca pelo atendimento humanizado e equipamentos de última geração.</p>
+                    <p style="color: var(--text-muted); margin-bottom: 30px;">Nossa sede na Vila Plana nos permite chegar rapidamente a pontos estratégicos como a Av. das Belezas, Morumbi e Campo Limpo.</p>
+                    <a href="sobre.html" class="btn btn-outline" style="color: var(--primary); border-color: var(--primary);">Saiba Mais</a>
+                </div>
+                <div style="flex: 1; min-width: 300px;">
+                    <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&q=80&w=800" alt="Profissional Martini Guinchos" style="width:100%; border-radius: 20px; box-shadow: var(--shadow-premium);" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section class="section-container" style="text-align: center;">
+            <div style="background: var(--primary); padding: 80px 40px; border-radius: 30px; color: white;">
+                <h2 style="font-size: 3rem; margin-bottom: 20px; letter-spacing: -2px;">Precisa de um guincho agora?</h2>
+                <p style="font-size: 1.25rem; opacity: 0.9; margin-bottom: 40px; max-width: 600px; margin-inline: auto;">Não fique na mão. Nossa central de despacho está pronta para enviar uma unidade imediata para sua localização.</p>
+                <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                    <a href="tel:+5511971717505" class="btn" style="background: white; color: var(--primary);">
+                        <span class="material-symbols-outlined">call</span>
+                        Ligar Agora
+                    </a>
+                    <a href="https://wa.me/5511971717505" class="btn btn-outline">WhatsApp</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h4 style="color: var(--primary); font-size: 1.2rem;">Martini Guinchos</h4>
+                <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 10px;">Atendimento 24h especializado em remoções e socorro mecânico em toda Grande São Paulo.</p>
+                <div style="margin-top: 20px;">
+                    <p style="font-size: 0.8rem; font-weight: 700;">Localização:</p>
+                    <p style="font-size: 0.8rem; color: var(--text-muted);">Av. das Belezas, 526 - Vila Plana<br>São Paulo - SP, 05731-250</p>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Áreas de Atendimento</h4>
+                <ul style="display: grid; grid-template-columns: 1fr 1fr; gap: 5px 20px;">
+                    <li><a href="guincho-na-vila-andrade.html">Vila Andrade</a></li>
+                    <li><a href="guincho-no-campo-limpo.html">Campo Limpo</a></li>
+                    <li><a href="guincho-no-morumbi.html">Morumbi</a></li>
+                    <li><a href="guincho-no-jardim-sao-luis.html">Jd. São Luís</a></li>
+                    <li><a href="guincho-no-panamby.html">Panamby</a></li>
+                    <li><a href="guincho-no-santo-amaro.html">Santo Amaro</a></li>
+                    <li><a href="guincho-no-capao-redondo.html">Capão Redondo</a></li>
+                    <li><a href="guincho-no-jardim-sul.html">Jardim Sul</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="bottom-bar">
+            <div>© 2024 Martini Guinchos. Todos os direitos reservados.</div>
+            <div>Desenvolvido com foco em Performance & SEO</div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/5511971717505" class="whatsapp-float" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 35px; height: 35px;" loading="lazy">
+    </a>
+
+    <script src="js/main.js"></script>
+
+    <!-- Schema.org Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoRepair",
+      "name": "Martini Guinchos 24h",
+      "image": "https://guinchosmartini.com.br/img/hero.png",
+      "@id": "https://guinchosmartini.com.br",
+      "url": "https://guinchosmartini.com.br",
+      "telephone": "+5511971717505",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. das Belezas, 526",
+        "addressLocality": "São Paulo",
+        "addressRegion": "SP",
+        "postalCode": "05731-250",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -23.6429,
+        "longitude": -46.7324
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Serviços de Guincho e Socorro Mecânico",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Guincho para Veículos Leves"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Recarga de Bateria 24h"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Reboque de Motos"
+            }
+          }
+        ]
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
+    }
+    </script>
+</body>
+</html>

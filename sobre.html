@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre a Martini Guinchos | Referência em Guincho 24h em São Paulo</title>
+    <meta name="description" content="Conheça a Martini Guinchos, baseada na Vila Plana. Nossa missão é oferecer o resgate veicular mais rápido e seguro de São Paulo com atendimento 24 horas.">
+    <link rel="canonical" href="https://guinchosmartini.com.br/sobre.html">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .page-hero {
+            height: 40vh;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&q=80&w=1200');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            padding-top: 80px;
+        }
+        .content-section {
+            padding: 80px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .vision-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <div class="pulse-indicator"></div>
+                <span class="logo-text">Martini Guinchos</span>
+            </a>
+
+            <button class="menu-toggle md-hidden" id="menuToggle" aria-label="Menu">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+            
+            <nav class="md-flex hidden">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li class="dropdown">
+                        <a href="#" style="display: flex; align-items: center; gap: 5px;">
+                            Áreas 
+                            <span class="material-symbols-outlined" style="font-size: 16px;">expand_more</span>
+                        </a>
+                        <div class="dropdown-content">
+                            <a href="guincho-na-vila-andrade.html">Vila Andrade</a>
+                            <a href="guincho-no-campo-limpo.html">Campo Limpo</a>
+                            <a href="guincho-no-morumbi.html">Morumbi</a>
+                            <a href="guincho-no-panamby.html">Panamby</a>
+                            <a href="guincho-no-jardim-sao-luis.html">Jardim São Luís</a>
+                            <a href="guincho-no-santo-amaro.html">Santo Amaro</a>
+                            <a href="guincho-no-capao-redondo.html">Capão Redondo</a>
+                            <a href="guincho-no-jardim-sul.html">Jardim Sul</a>
+                            <a href="guincho-na-vila-das-belezas.html">Vila das Belezas</a>
+                            <a href="guincho-em-taboao-da-serra.html">Taboão da Serra</a>
+                        </div>
+                    </li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="status-badge">
+                <span class="material-symbols-outlined" style="font-size: 14px;">bolt</span>
+                24H ONLINE
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="page-hero">
+            <div>
+                <h1 style="font-size: 3.5rem; letter-spacing: -2px;">Sobre Nós</h1>
+                <p style="font-size: 1.1rem; opacity: 0.8; max-width: 600px; margin: 0 auto;">Excelência em resgate veicular e compromisso com o cliente.</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2 class="section-title">Nossa História</h2>
+            <p style="margin-bottom: 20px;">A Martini Guinchos nasceu da necessidade de um serviço de resgate mais humano e eficiente em São Paulo. Percebendo a carência de um atendimento rápido e atencioso, fundamos nossa base na Vila Plana com o objetivo de ser a referência em socorro mecânico na Zona Sul.</p>
+            <p style="margin-bottom: 20px;">Hoje, contamos com uma frota modernizada e técnicos altamente treinados para lidar com as mais diversas situações, desde pequenas panes elétricas até remoções complexas de veículos pesados.</p>
+
+            <div class="vision-grid">
+                <div class="service-card">
+                    <span class="material-symbols-outlined service-icon">verified</span>
+                    <h3>Missão</h3>
+                    <p>Proporcionar segurança e tranquilidade aos nossos clientes através de um atendimento rápido, técnico e honesto.</p>
+                </div>
+                <div class="service-card">
+                    <span class="material-symbols-outlined service-icon">visibility</span>
+                    <h3>Visão</h3>
+                    <p>Ser a empresa de guincho mais confiável e lembrada de São Paulo, reconhecida pela qualidade e transparência.</p>
+                </div>
+                <div class="service-card">
+                    <span class="material-symbols-outlined service-icon">favorite</span>
+                    <h3>Valores</h3>
+                    <p>Respeito ao cliente, ética profissional, agilidade operacional e segurança inegociável.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h4 style="color: var(--primary); font-size: 1.2rem;">Martini Guinchos</h4>
+                <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 10px;">Atendimento 24h especializado em remoções em toda Grande São Paulo.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <div>© 2024 Martini Guinchos.</div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/5511971717505" class="whatsapp-float" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 35px; height: 35px;">
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

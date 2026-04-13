@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitação Recebida | Martini Guinchos 24h</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .thank-you-container {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+        .success-card {
+            background: white;
+            padding: 60px 40px;
+            border-radius: 30px;
+            box-shadow: var(--shadow-premium);
+            max-width: 500px;
+            width: 100%;
+        }
+        .success-icon {
+            width: 80px;
+            height: 80px;
+            background: #e8f5e9;
+            color: #4caf50;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 30px;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body style="background: var(--surface-light);">
+
+    <div class="thank-you-container">
+        <div class="success-card">
+            <div class="success-icon">
+                <span class="material-symbols-outlined" style="font-size: 48px;">check_circle</span>
+            </div>
+            <h1 style="font-size: 2.5rem; letter-spacing: -1px; margin-bottom: 15px;">Solicitação Enviada!</h1>
+            <p style="color: var(--text-muted); margin-bottom: 40px;">Recebemos seus dados. Um de nossos especialistas em resgate entrará em contato em instantes.</p>
+            
+            <div style="display: flex; flex-direction: column; gap: 15px;">
+                <a href="https://wa.me/5511971717505" class="btn btn-primary" style="justify-content: center;">
+                    <span class="material-symbols-outlined">chat</span>
+                    Acelerar pelo WhatsApp
+                </a>
+                <a href="index.html" class="btn btn-outline" style="color: var(--text-main); border-color: var(--border-cmd); justify-content: center;">Voltar ao Início</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        gsap.from('.success-card', {
+            y: 50,
+            opacity: 0,
+            duration: 1,
+            ease: 'power3.out'
+        });
+        gsap.from('.success-icon', {
+            scale: 0,
+            rotation: 180,
+            delay: 0.5,
+            duration: 0.8,
+            ease: 'back.out(1.7)'
+        });
+    </script>
+</body>
+</html>
