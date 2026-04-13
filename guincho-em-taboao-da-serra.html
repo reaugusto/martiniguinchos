@@ -74,9 +74,118 @@
             </div>
         </section>
     </main>
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h4 style="color: var(--primary); font-size: 1.2rem;">Martini Guinchos</h4>
+                <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 10px;">Atendimento 24h especializado em remoções e socorro mecânico em toda Grande São Paulo.</p>
+                <div style="margin-top: 20px;">
+                    <p style="font-size: 0.8rem; font-weight: 700;">Localização:</p>
+                    <p style="font-size: 0.8rem; color: var(--text-muted);">Av. das Belezas, 526 - Vila Plana<br>São Paulo - SP, 05731-250</p>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Áreas de Atendimento</h4>
+                <ul style="display: grid; grid-template-columns: 1fr 1fr; gap: 5px 20px;">
+                    <li><a href="guincho-na-vila-andrade.html">Vila Andrade</a></li>
+                    <li><a href="guincho-no-campo-limpo.html">Campo Limpo</a></li>
+                    <li><a href="guincho-no-morumbi.html">Morumbi</a></li>
+                    <li><a href="guincho-no-jardim-sao-luis.html">Jd. São Luís</a></li>
+                    <li><a href="guincho-no-panamby.html">Panamby</a></li>
+                    <li><a href="guincho-no-santo-amaro.html">Santo Amaro</a></li>
+                    <li><a href="guincho-no-capao-redondo.html">Capão Redondo</a></li>
+                    <li><a href="guincho-no-jardim-sul.html">Jardim Sul</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="bottom-bar">
+            <div>© 2024 Martini Guinchos. Todos os direitos reservados.</div>
+            <div>Desenvolvido com foco em Performance & SEO</div>
+        </div>
+    </footer>
+
     <a href="https://wa.me/5511971717505" class="whatsapp-float" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 35px; height: 35px;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 35px; height: 35px;" loading="lazy">
     </a>
+
     <script src="js/main.js"></script>
+
+    <!-- Schema.org Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoRepair",
+      "name": "Martini Guinchos 24h",
+      "image": "https://guinchosmartini.com.br/img/hero.png",
+      "@id": "https://guinchosmartini.com.br",
+      "url": "https://guinchosmartini.com.br",
+      "telephone": "+5511971717505",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. das Belezas, 526",
+        "addressLocality": "São Paulo",
+        "addressRegion": "SP",
+        "postalCode": "05731-250",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -23.6429,
+        "longitude": -46.7324
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Serviços de Guincho e Socorro Mecânico",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Guincho para Veículos Leves"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Recarga de Bateria 24h"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Reboque de Motos"
+            }
+          }
+        ]
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
+    }
+    </script>
 </body>
 </html>
